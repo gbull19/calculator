@@ -12,48 +12,47 @@
         <div class="calc">
             <table id="calculator">
                 <tr>
-                    <td id="display2" colspan="4" type="text">Calculation String</td>
+                    <td id="display2" colspan="4" type="text"></td>
                 </tr>
                 <tr>
-                    <td id="display" colspan="3" type="text">Current Number</td>
-                    <td id="operator" colspan="1" type="text">Operator</td>
-                </tr>
-                
-                <tr>
-                    <td class="button" type="button" id="%">%</td>
-                    <td class="button" type="button" id="CE">CE</td>
-                    <td class="button" type="button" id="C">C</td>
-                    <td class="button" type="button" id="←">←</td>
+                    <td id="display" colspan="3" type="text"></td>
+                    <td id="operator" colspan="1" type="text"></td>
                 </tr>
                 <tr>
-                    <td class="button" type="button" id="¹/x">¹/x</td>
-                    <td class="button" type="button" id="x²">x²</td>
-                    <td class="button" type="button" id="√x">√x</td>
-                    <td class="button" type="button" id="÷">÷</td>
+                    <td class="button" type="button" data-type="operator" id="%">%</td>
+                    <td class="button" type="button" data-type="clearEntry" id="CE">CE</td>
+                    <td class="button" type="button" data-type="clear" id="C">C</td>
+                    <td class="button" type="button" data-type="function" id="←">←</td>
                 </tr>
                 <tr>
-                    <td class="button" type="button" id="7">7</td>
-                    <td class="button" type="button" id="8">8</td>
-                    <td class="button" type="button" id="9">9</td>
-                    <td class="button" type="button" id="×">×</td>
+                    <td class="button" type="button" data-type="function" id="¹/x">¹/x</td>
+                    <td class="button" type="button" data-type="function" id="x²">x²</td>
+                    <td class="button" type="button" data-type="function" id="√x">√x</td>
+                    <td class="button" type="button" data-type="operator" id="÷">÷</td>
                 </tr>
                 <tr>
-                    <td class="button" type="button" id="4">4</td>
-                    <td class="button" type="button" id="5">5</td>
-                    <td class="button" type="button" id="6">6</td>
-                    <td class="button" type="button" id="-">-</td>
+                    <td class="button" type="button" data-type="number" id="7">7</td>
+                    <td class="button" type="button" data-type="number" id="8">8</td>
+                    <td class="button" type="button" data-type="number" id="9">9</td>
+                    <td class="button" type="button" data-type="operator" id="×">×</td>
                 </tr>
                 <tr>
-                    <td class="button" type="button" id="1">1</td>
-                    <td class="button" type="button" id="2">2</td>
-                    <td class="button" type="button" id="3">3</td>
-                    <td class="button" type="button" id="+">+</td>
+                    <td class="button" type="button" data-type="number" id="4">4</td>
+                    <td class="button" type="button" data-type="number" id="5">5</td>
+                    <td class="button" type="button" data-type="number" id="6">6</td>
+                    <td class="button" type="button" data-type="operator" id="-">-</td>
                 </tr>
                 <tr>
-                    <td class="button" type="button" id="±">±</td>
-                    <td class="button" type="button" id="0">0</td>
-                    <td class="button" type="button" id=".">.</td>
-                    <td class="button" type="button" id="=">=</td>
+                    <td class="button" type="button" data-type="number" id="1">1</td>
+                    <td class="button" type="button" data-type="number" id="2">2</td>
+                    <td class="button" type="button" data-type="number" id="3">3</td>
+                    <td class="button" type="button" data-type="operator" id="+">+</td>
+                </tr>
+                <tr>
+                    <td class="button" type="button" data-type="operator" id="±">±</td>
+                    <td class="button" type="button" data-type="number" id="0">0</td>
+                    <td class="button" type="button" data-type="number" id=".">.</td>
+                    <td class="button" type="button" data-type="equals" id="=">=</td>
                 </tr>
             </table>
         </div>
